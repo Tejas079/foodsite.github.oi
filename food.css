@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+p {
+    margin: 5px;
+    padding: 10px;
+}
+
+body {
+    background-color: #FFC72C;
+}
+
+.food-heading {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'PT Sans', sans-serif;
+    background-color: rgba(0, 0, 0, 0.979);
+    color: white;
+    margin: 5px 5px;
+    padding: 15px;
+    align-items: center;
+}
+
+.nav-links-cont {
+    display: flex;
+    justify-content: end;
+    width: 60%;
+    line-height: 60px;
+    padding: 10px;
+}
+
+.nav-links-cont>a {
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 1em;
+    color: white;
+    cursor: pointer;
+}
+
+.yum-yum {
+    margin: 10px;
+    padding: 0;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    text-shadow: 2px 2px 7px rgba(94, 124, 211, 1);
+}
+
+.head-container>h2:last-child {
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    width: 30%;
+    border-radius: 50%;
+    border: 1px solid black;
+    background: linear-gradient( 45deg, darkred, black);
+    ;
+    color: white;
+}
+
+span>h2 {
+    width: 200px;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 70%;
+    border: 1px solid black;
+    background: linear-gradient( 45deg, darkred, black);
+    ;
+    color: white;
+}
+
+.pizza-container, .burger-container, .softdrinks-container {
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.pizza-img-cont>img, .burger-img-cont>img, .drinks-img-cont>img {
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 10px 5px;
+    box-shadow: 9px 6px 8px 2px black;
+}
+
+.pizza-img-cont, .burger-img-cont, .drinks-img-cont {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-column-gap: 15px;
+    width: 100vw;
+    /* height: 450px; */
+    overflow-y: hidden;
+}
+
+footer {
+    width: 100vw;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+.footer-cont>h3 {
+    padding-top: 20px;
+    margin-top: 50px;
+}
+
+.icon {
+    align-items: center;
+}
+
+.footer-tags-cont>a {
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    width: 20px;
+}
